@@ -1,0 +1,22 @@
+body {
+  background-color: #e7e3e0 !important;
+}
+.spinner {
+  position: fixed;
+  z-index: 9999;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.landing {
+  background: white url("assets/img/telephone-pic.jpg") no-repeat scroll center;
+  height: 100vh;
+  background-size: cover;
+  color: lightgray;
+}
+
+.wrapper {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+}
