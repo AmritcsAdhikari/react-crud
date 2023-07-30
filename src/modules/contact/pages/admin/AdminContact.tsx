@@ -122,10 +122,10 @@ let AdminContact: React.FC = () => {
       {!loading && filterdContacts.length > 0 ? (
         <div className="container mt-3">
           <div className="row">
-            <div className="col">
+  
               {filterdContacts.map((contact, index) => {
                 return (
-                  <div className="col-sm-6" key={index}>
+                  <div className="col-6" key={index}>
                     <ContactCard
                       contact={contact}
                       deleteContact={deleteContact}
@@ -135,7 +135,7 @@ let AdminContact: React.FC = () => {
               })}
             </div>
           </div>
-        </div>
+        
       ) : (
         <div className="container mt-3">
           <div className="row">
